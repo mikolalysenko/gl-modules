@@ -7,12 +7,10 @@ A tutorial to working with WebGL using modular programming.
 
 # Goals
 
-* Introduce graphics programmers to a modular style of programming
 * Teach WebGL with minimal amount of magic
-* Emphasize code reuse
 * Wrap common verbose tasks in modules to reduce code size
 * .. but don't try to abstract stuff that doesn't need it
-* Create a simpler and more expressive interface for WebGL programming from the bottom up
+* Emphasize code reuse
 
 # Outline
 
