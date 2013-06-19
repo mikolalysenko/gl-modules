@@ -15,7 +15,7 @@ A tutorial to working with WebGL using modular programming.
 
 # Outline
 
-## Perliminaries
+## Preliminaries
 
 Topics covered:
 
