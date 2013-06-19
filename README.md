@@ -115,18 +115,6 @@ New modules:
 
 * [simplicial-complex](https://github.com/mikolalysenko/simplicial-complex)
 
-
-
-
-# TO BE WRITTEN
-
-Cameras
-
-Mesh/geometry wrappers
-
-Some prebaked materials?
-
-
 # Links
 
 http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html
