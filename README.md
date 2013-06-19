@@ -9,21 +9,33 @@ A tutorial to working with WebGL using modular programming.
 
 * ndarrays
 
-* game-shell
-
 # Set up
+
+* game-shell
 
 * gl-now
 
-# Drawing geometry
+# Drawing a triangle
 
 * gl-buffer
 
 * gl-shader
 
-# Advanced
+# Textures
 
 * gl-texture2d
 
+# Framebuffers
+
 * gl-fbo
+
+
+
+# TO BE WRITTEN
+
+Cameras
+
+Mesh/geometry wrappers
+
+Prebaked materials
 
