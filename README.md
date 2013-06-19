@@ -5,12 +5,17 @@ A tutorial to working with WebGL using modular programming.
 **WORK IN PROGRESS**
 
 
-# Goals
+## Goals
 
 * Teach WebGL with minimal amount of magic
 * Wrap common verbose tasks in modules to reduce code size
 * .. but don't try to abstract stuff that doesn't need it
 * Emphasize code reuse
+
+## Assumed knowledge
+
+* Basic understanding of JavaScript
+* Some familiarity with graphics concepts will be helpful
 
 # Outline
 
@@ -22,6 +27,7 @@ Topics covered:
 * npm package management
 * browserify
 * Interactive work flow, beefy and live-reload
+* Deployment/hosting options
 
 Modules introduced:
 
