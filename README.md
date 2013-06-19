@@ -8,6 +8,7 @@ A tutorial to working with WebGL using modular programming.
 # Goals
 
 * Introduce graphics programmers to a modular style of programming
+* Teach WebGL with minimal amount of magic
 * Emphasize code reuse
 * Wrap common verbose tasks in modules to reduce code size
 * .. but don't try to abstract stuff that doesn't need it
@@ -15,24 +16,23 @@ A tutorial to working with WebGL using modular programming.
 
 # Outline
 
-## Preliminaries
+### Preliminaries
 
 Topics covered:
 
-* Basic workflow with npm
-* Working with binary data in JavaScript
-* Linear algebra libraries
+* CommonJS modules
+* npm package management
+* browserify
+* Interactive work flow, beefy and live-reload
 
 Modules introduced:
 
 * [node.js](http://nodejs.org/)
 * [npm](https://npmjs.org/)
-* [ndarrays](https://github.com/mikolalysenko/ndarray)
-* [gl-matrix](https://github.com/toji/gl-matrix)
 * [browserify](https://github.com/substack/node-browserify)
 * [beefy](https://github.com/chrisdickinson/beefy)
 
-## Set up
+### Set up
 
 Topics:
 
@@ -43,20 +43,12 @@ New modules:
 * [game-shell](https://github.com/mikolalysenko/game-shell)
 * [gl-now](https://github.com/mikolalysenko/gl-now)
 
-## Drawing
+### 2D Drawing
 
 Topics:
 
 * Basic 2D drawing
-
-New modules:
-
-* [gl-buffer](https://github.com/mikolalysenko/gl-buffer)
-
-## Shaders
-
-Topics:
-
+* Buffers
 * Shaders
 * Uniforms
 * Attributes
@@ -64,9 +56,10 @@ Topics:
 
 New modules:
 
+* [gl-buffer](https://github.com/mikolalysenko/gl-buffer)
 * [gl-shader](https://github.com/mikolalysenko/gl-shader)
 
-## Textures
+### Textures
 
 Topics:
 
@@ -78,7 +71,7 @@ New modules:
 
 * [gl-texture2d](https://github.com/mikolalysenko/gl-texture2d)
 
-## Framebuffers
+### Framebuffers
 
 Topics:
 
@@ -91,8 +84,7 @@ New modules:
 
 * [gl-fbo](https://github.com/mikolalysenko/gl-fbo)
 
-
-## Coordinate Transformations
+### Coordinate Transformations
 
 Topics:
 
@@ -102,8 +94,11 @@ Topics:
 * Clipping frustum
 * Cameras and model matrices
 
+New modules:
 
-## Indexed geometry
+* [gl-matrix](https://github.com/toji/gl-matrix)
+
+### Indexed geometry
 
 Topics:
 
@@ -113,7 +108,9 @@ Topics:
 
 New modules:
 
+* [ndarrays](https://github.com/mikolalysenko/ndarray)
 * [simplicial-complex](https://github.com/mikolalysenko/simplicial-complex)
+
 
 # Links
 
