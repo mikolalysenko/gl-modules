@@ -16,6 +16,10 @@ A tutorial to working with WebGL using modular programming.
 
 ## Perliminaries
 
+* [node.js](http://nodejs.org/)
+
+* [npm](https://npmjs.org/)
+
 * [ndarrays](https://github.com/mikolalysenko/ndarray)
 
 * [gl-matrix](https://github.com/toji/gl-matrix)
@@ -55,13 +59,14 @@ Cameras
 
 Mesh/geometry wrappers
 
-Prebaked materials
+Some prebaked materials?
 
 
 # Links
 
 http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html
 
+http://www.khronos.org/registry/webgl/specs/latest/
 
 # Credits
 (c) 2013 Mikola Lysenko. MIT License

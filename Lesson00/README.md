@@ -2,6 +2,8 @@
 
 ## Introduction to the CommonJS workflow
 
+### npm
+
 ### browserify
 
 ### beefy
