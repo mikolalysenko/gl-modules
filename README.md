@@ -20,6 +20,10 @@ A tutorial to working with WebGL using modular programming.
 
 * [gl-matrix](https://github.com/toji/gl-matrix)
 
+* [browserify](https://github.com/substack/node-browserify)
+
+* [beefy](https://github.com/chrisdickinson/beefy)
+
 ## Set up
 
 * [game-shell](https://github.com/mikolalysenko/game-shell)
