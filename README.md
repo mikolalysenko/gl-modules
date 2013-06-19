@@ -61,3 +61,7 @@ Prebaked materials
 # Links
 
 http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html
+
+
+# Credits
+(c) 2013 Mikola Lysenko. MIT License
