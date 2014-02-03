@@ -1,7 +1,23 @@
 # Lesson 0: Perliminaries
 
-## About this tutorial
+## Outline
 
+Topics covered:
+
+* CommonJS modules
+* npm and node.js
+* browserify
+* Interactive work flow, beefy and live-reload
+* Deployment/hosting options
+
+Modules introduced:
+
+* [node.js](http://nodejs.org/)
+* [npm](https://npmjs.org/)
+* [browserify](https://github.com/substack/node-browserify)
+* [beefy](https://github.com/chrisdickinson/beefy)
+
+## About gl-modules
 
 ### Why modules instead of frameworks
 

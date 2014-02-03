@@ -18,104 +18,21 @@ Broadly the goals of this document are to:
 * Basic understanding of node.js and npm
 * Some familiarity with graphics concepts and browserify will be helpful
 
-# Outline
+# Lessons
 
 ### [Lesson 0: Preliminaries](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson00/README.md)
 
-Topics covered:
-
-* CommonJS modules
-* npm and node.js
-* browserify
-* Interactive work flow, beefy and live-reload
-* Deployment/hosting options
-
-Modules introduced:
-
-* [node.js](http://nodejs.org/)
-* [npm](https://npmjs.org/)
-* [browserify](https://github.com/substack/node-browserify)
-* [beefy](https://github.com/chrisdickinson/beefy)
-
 ### [Lesson 1: Setting up WebGL](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson01/README.md)
 
-Topics:
+### [Lesson 2: 2D Drawing](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson02/README.md)
 
-* Initializing WebGL
+### [Lesson 3: Textures](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson03/README.md)
 
-New modules:
+### [Lesson 4: Framebuffers](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson04/README.md)
 
-* [game-shell](https://github.com/mikolalysenko/game-shell)
-* [gl-now](https://github.com/mikolalysenko/gl-now)
+### [Lesson 5: Coordinate Transformations](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson05/README.md)
 
-### 2D Drawing
-
-Topics:
-
-* Basic 2D drawing
-* Buffers
-* Shaders
-* Uniforms
-* Attributes
-* Varying variables
-
-New modules:
-
-* [gl-shader](https://github.com/mikolalysenko/gl-shader)
-* [gl-buffer](https://github.com/mikolalysenko/gl-buffer)
-
-### Textures
-
-Topics:
-
-* Multidimensional arrays
-* Textures
-* ndarrays for images
-* Mipmapping
-
-New modules:
-
-* [ndarrays](https://github.com/mikolalysenko/ndarray)
-* [gl-texture2d](https://github.com/mikolalysenko/gl-texture2d)
-
-### Framebuffers
-
-Topics:
-
-* Framebuffers
-* Offscreen rendering
-* Feedback effects
-* Basic GPGPU programming
-
-New modules:
-
-* [gl-fbo](https://github.com/mikolalysenko/gl-fbo)
-
-### Coordinate Transformations
-
-Topics:
-
-* Active vs. passive transformations
-* Coordinate transformations
-* Homogenous coordinates
-* Clipping frustum
-* Cameras and model matrices
-
-New modules:
-
-* [gl-matrix](https://github.com/toji/gl-matrix)
-
-### Indexed geometry
-
-Topics:
-
-* Element arrays
-* Meshes
-* Vertex array objects
-
-New modules:
-
-* [gl-vao](https://github.com/mikolalysenko/gl-vao)
+### [Lesson 6: Indexed geometry](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson06/README.md)
 
 # Other references
 
