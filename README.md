@@ -1,22 +1,22 @@
 gl-modules
 ==========
-A guide to WebGL programming using npm and browserify
+A guide to WebGL programming using npm and browserify.  For an overview of the modules used in this discussion, please go to:
 
-## Goals
+* [API Overview](API.md)
 
-Broadly the goals of this 
+### Goals
+
+Broadly the goals of this document are to:
 
 * Teach WebGL with minimal amount of magic
 * Wrap common verbose tasks in modules to reduce code size and avoid errors
-* ... but don't try to abstract stuff that doesn't need it
-* Emphasize code reuse
+* Emphasize code reuse in shaders through modular programming
 
-
-## Assumed knowledge
+### Prerequisites:
 
 * Proficiency with JavaScript
 * Basic understanding of node.js and npm
-* Some familiarity with graphics concepts will be helpful
+* Some familiarity with graphics concepts and browserify will be helpful
 
 # Outline
 
@@ -117,7 +117,7 @@ New modules:
 
 * [gl-vao](https://github.com/mikolalysenko/gl-vao)
 
-# Links
+# Other references
 
 [Overview of graphics pipeline](http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html)
 
