@@ -2,7 +2,7 @@ gl-modules
 ==========
 A guide to WebGL programming using npm and browserify.  For an overview of the modules used in this discussion, please go to:
 
-* [API Overview](API.md)
+### [API Overview](API.md)
 
 ### Goals
 
@@ -33,6 +33,8 @@ Broadly the goals of this document are to:
 ### [Lesson 5: Coordinate Transformations](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson05/README.md)
 
 ### [Lesson 6: Indexed geometry](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson06/README.md)
+
+### [Summary](https://github.com/mikolalysenko/gl-modules/blob/master/API.md)
 
 # Other references
 
