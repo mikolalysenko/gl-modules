@@ -1,5 +1,5 @@
-Modules for graphical simulations
-=================================
+Modules for graphics programming
+================================
 
 ## Basic modules
 

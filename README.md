@@ -1,14 +1,14 @@
 gl-modules
 ==========
-A tutorial to working with WebGL using modular programming.
-
-**WORK IN PROGRESS**
+A guide to WebGL programming using npm and browserify
 
 ## Goals
 
+Broadly the goals of this 
+
 * Teach WebGL with minimal amount of magic
-* Wrap common verbose tasks in modules to reduce code size
-* .. but don't try to abstract stuff that doesn't need it
+* Wrap common verbose tasks in modules to reduce code size and avoid errors
+* ... but don't try to abstract stuff that doesn't need it
 * Emphasize code reuse
 
 
@@ -17,7 +17,6 @@ A tutorial to working with WebGL using modular programming.
 * Basic understanding of JavaScript
 * Some familiarity with graphics concepts will be helpful
 
-
 # Outline
 
 ### [Lesson 0: Preliminaries](https://github.com/mikolalysenko/gl-modules/blob/master/Lesson00/README.md)
@@ -25,7 +24,7 @@ A tutorial to working with WebGL using modular programming.
 Topics covered:
 
 * CommonJS modules
-* npm and noe.js
+* npm and node.js
 * browserify
 * Interactive work flow, beefy and live-reload
 * Deployment/hosting options
@@ -48,6 +47,15 @@ New modules:
 * [game-shell](https://github.com/mikolalysenko/game-shell)
 * [gl-now](https://github.com/mikolalysenko/gl-now)
 
+
+### Shaders and glslify
+
+
+
+New modules:
+
+* [gl-shader](https://github.com/mikolalysenko/gl-shader)
+
 ### 2D Drawing
 
 Topics:
@@ -62,7 +70,6 @@ Topics:
 New modules:
 
 * [gl-buffer](https://github.com/mikolalysenko/gl-buffer)
-* [gl-shader](https://github.com/mikolalysenko/gl-shader)
 
 ### Textures
 
@@ -103,18 +110,17 @@ New modules:
 
 * [gl-matrix](https://github.com/toji/gl-matrix)
 
-### Indexed geometry
+### Indexed geometry and binary data
 
 Topics:
 
+* Multidimensional arrays
 * Element arrays
-* Simplicial complexes
 * Meshes
 
 New modules:
 
 * [ndarrays](https://github.com/mikolalysenko/ndarray)
-* [simplicial-complex](https://github.com/mikolalysenko/simplicial-complex)
 
 
 # Links
