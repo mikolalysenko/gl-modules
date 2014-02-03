@@ -32,7 +32,7 @@ Modules for graphics programming
 
 ## Data
 
-### File formats and parsers
+### File formats
 
 * Images: [`get-pixels`](https://github.com/mikolalysenko/get-pixels), [`save-pixels`](https://npmjs.org/package/save-pixels)
 * Volume graphics: [`nrrd-js`](https://npmjs.org/package/nrrd-js), [`ndarray-to-binvox`](https://npmjs.org/package/ndarray-to-binvox), [`minecraft-mca`](https://npmjs.org/package/minecraft-mca)
@@ -42,7 +42,3 @@ Modules for graphics programming
 
 * Meshes: [`bunny`](https://npmjs.org/package/bunny), [`teapot`](https://npmjs.org/package/teapot)
 * Images: [`lena`](https://npmjs.org/package/lena), [`isabella-texture-pack`](https://npmjs.org/package/isabella-texture-pack)
-
-### Data generators
-
-* Symmetric polytopes: [`conway-hart`](https://npmjs.org/package/conway-hart)

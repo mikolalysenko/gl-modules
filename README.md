@@ -14,7 +14,8 @@ Broadly the goals of this
 
 ## Assumed knowledge
 
-* Basic understanding of JavaScript
+* Proficiency with JavaScript
+* Basic understanding of node.js and npm
 * Some familiarity with graphics concepts will be helpful
 
 # Outline
@@ -47,15 +48,6 @@ New modules:
 * [game-shell](https://github.com/mikolalysenko/game-shell)
 * [gl-now](https://github.com/mikolalysenko/gl-now)
 
-
-### Shaders and glslify
-
-
-
-New modules:
-
-* [gl-shader](https://github.com/mikolalysenko/gl-shader)
-
 ### 2D Drawing
 
 Topics:
@@ -69,18 +61,21 @@ Topics:
 
 New modules:
 
+* [gl-shader](https://github.com/mikolalysenko/gl-shader)
 * [gl-buffer](https://github.com/mikolalysenko/gl-buffer)
 
 ### Textures
 
 Topics:
 
+* Multidimensional arrays
 * Textures
 * ndarrays for images
 * Mipmapping
 
 New modules:
 
+* [ndarrays](https://github.com/mikolalysenko/ndarray)
 * [gl-texture2d](https://github.com/mikolalysenko/gl-texture2d)
 
 ### Framebuffers
@@ -110,24 +105,23 @@ New modules:
 
 * [gl-matrix](https://github.com/toji/gl-matrix)
 
-### Indexed geometry and binary data
+### Indexed geometry
 
 Topics:
 
-* Multidimensional arrays
 * Element arrays
 * Meshes
+* Vertex array objects
 
 New modules:
 
-* [ndarrays](https://github.com/mikolalysenko/ndarray)
-
+* [gl-vao](https://github.com/mikolalysenko/gl-vao)
 
 # Links
 
-http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html
+[Overview of graphics pipeline](http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html)
 
-http://www.khronos.org/registry/webgl/specs/latest/
+[WebGL specification](http://www.khronos.org/registry/webgl/specs/latest/)
 
 # Credits
 (c) 2013 Mikola Lysenko. MIT License
