@@ -14,6 +14,9 @@ Modules for graphics programming
 * Data structure: [`ndarray`](https://github.com/mikolalysenko/ndarray#api)
 * Raster operations: [`cwise`](https://github.com/mikolalysenko/cwise/#requirecwiseuser_args)
 * Utility methods: [`ndarray-ops`](https://github.com/mikolalysenko/ndarray-ops#conventions)
+* [`ndarray-fill`](https://npmjs.org/package/ndarray-fill)
+* [`ndarray-pack`](https://npmjs.org/package/ndarray-pack)
+* [`ndarray-unpack`](https://npmjs.org/package/ndarray-unpack)
 
 ### WebGL wrappers
 
@@ -35,6 +38,7 @@ Modules for graphics programming
 
 * [`get-pixels`](https://github.com/mikolalysenko/get-pixels)
 * [`save-pixels`](https://npmjs.org/package/save-pixels)
+* [`nrrd-js`](https://npmjs.org/package/nrrd-js)
 * [`parse-ply`](https://npmjs.org/package/parse-ply)
 * [`write-ply`](https://npmjs.org/package/write-ply)
 * [`write-vrml`](https://npmjs.org/package/write-vrml)
@@ -50,6 +54,34 @@ Modules for graphics programming
 ### Data generators
 
 * [`conway-hart`](https://npmjs.org/package/conway-hart)
+
+## Discrete algorithms and data structures
+
+### Searching
+
+* [`bisect`](https://npmjs.org/package/bisect)
+* [`binary-search-bounds`](https://npmjs.org/package/binary-search-bounds)
+
+### Sorting
+
+* [`ndarray-sort`](https://npmjs.org/package/ndarray-sort)
+
+### Permutations
+
+* [`permutation-rank`](https://npmjs.org/package/permutation-rank)
+
+### Dynamic graphs
+
+* [`dynamic-forest`](https://npmjs.org/package/dynamic-forest)
+* [`union-find`](https://npmjs.org/package/union-find)
+
+### Minimum spanning tree
+
+* [`kruskal`](https://npmjs.org/package/kruskal)
+
+### Paths
+
+* [`a-star`](https://npmjs.org/package/a-star)
 
 ## Geometry processing
 
@@ -67,6 +99,7 @@ Modules for graphics programming
 
 ### Non-robust predicates
 
+* [`almost-equal`](https://npmjs.org/package/almost-equal)
 * [`polytope-closest-point`](https://npmjs.org/package/polytope-closest-point)
 * [`box-frustum`](https://npmjs.org/package/box-frustum)
 * [`circumcenter`](https://npmjs.org/package/circumcenter)
@@ -107,30 +140,38 @@ Modules for graphics programming
 
 * [`shapeways`](https://npmjs.org/package/shapeways)
 
-## Discrete algorithms and data structures
+## Numerical methods
 
-### Searching
+### Basic linear algebra
 
-* [`bisect`](https://npmjs.org/package/bisect)
-* [`binary-search-bounds`](https://npmjs.org/package/binary-search-bounds)
+* [`ndgemm`](https://npmjs.org/package/ndgemm)
 
-### Sorting
+### Linear solvers
 
-* [`ndarray-sort`](https://npmjs.org/package/ndarray-sort)
+* [`conjugate-gradient`](https://npmjs.org/package/conjugate-gradient)
 
-### Permutations
+### Quadrature
 
-* [`permutation-rank`](https://npmjs.org/package/permutation-rank)
+* [`gauss-quadrature`](https://npmjs.org/package/gauss-quadrature)
 
-### Dynamic graphs
+### Polynomials
 
-* [`dynamic-forest`](https://npmjs.org/package/dynamic-forest)
-* [`union-find`](https://npmjs.org/package/union-find)
+* [`horner`](https://npmjs.org/package/horner)
+* [`durand-kerner`](https://npmjs.org/package/durand-kerner)
+* [`poly-derivative`](https://npmjs.org/package/poly-derivative)
+* [`poly-mult`](https://npmjs.org/package/poly-mult)
+* [`poly-mult-fft`](https://npmjs.org/package/poly-mult-fft)
 
-### Minimum spanning tree
+### Fourier transform
 
-* [`kruskal`](https://npmjs.org/package/kruskal)
+* [`ndarray-fft`](https://npmjs.org/package/ndarray-fft)
+* [`ndarray-complex`](https://npmjs.org/package/ndarray-complex)
+* [`phase-align`](https://npmjs.org/package/phase-align)
+* [`ndarray-convolve`](https://npmjs.org/package/ndarray-convolve)
 
-### Paths
+### Image processing
 
-* [`a-star`](https://npmjs.org/package/a-star)
+* [`distance-transform`](https://npmjs.org/package/distance-transform)
+* [`ball-morphology`](https://npmjs.org/package/ball-morphology)
+* [`image-rotate`](https://npmjs.org/package/image-rotate)
+* [`ndarray-warp`](https://npmjs.org/package/ndarray-warp)
