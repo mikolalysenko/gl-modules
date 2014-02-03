@@ -12,9 +12,8 @@ Modules for graphics programming
 
 * Pooling: [`typedarray-pool`](https://github.com/mikolalysenko/typedarray-pool#api)
 * Data structure: [`ndarray`](https://github.com/mikolalysenko/ndarray#api)
-* Raster operations: [`cwise`](https://github.com/mikolalysenko/cwise/#requirecwiseuser_args)
-* Utility methods: [`ndarray-ops`](https://github.com/mikolalysenko/ndarray-ops#conventions)
-* Initialization: [`ndarray-fill`](https://npmjs.org/package/ndarray-fill)
+* Component-wise operations: [`cwise`](https://github.com/mikolalysenko/cwise/#requirecwiseuser_args), [`ndarray-ops`](https://github.com/mikolalysenko/ndarray-ops#conventions)
+* Initialization: [`ndarray-fill`](https://npmjs.org/package/ndarray-fill), [`zeros`](https://npmjs.org/package/zeros)
 * Interoperability: [`ndarray-pack`](https://npmjs.org/package/ndarray-pack), [`ndarray-unpack`](https://npmjs.org/package/ndarray-unpack)
 
 ### WebGL wrappers
